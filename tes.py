@@ -2,9 +2,9 @@ import sys
 import os
 os.system('cls')
 
-from leet import Solution
+from leet import Solution1
 
-num=49
+s="MMMCDV"
 # Accessing 'tes' from 'leet' module
-sol=Solution()
-print(sol.intToRoman(num))
+sol=Solution1()
+print(sol.romanToInt(s))
