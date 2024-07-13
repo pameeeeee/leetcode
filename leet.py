@@ -1,7 +1,7 @@
 import os
 from  statistics import median
 os.system('cls')
-class Solution: #roman
+class Solution1: #roman
     def romanToInt(self, s: str) -> int:
         kamus={'I':1,
         'V':5,
@@ -203,8 +203,8 @@ class Solution: #int-->roman
                 res+=i
                 num-=j
         return res
-def tes():
-    pass   
+
+ 
 # input
 if __name__=="__main__":
     num=3749
