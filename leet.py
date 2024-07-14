@@ -210,6 +210,6 @@ if __name__=="__main__":
     num=3749
     sol=Solution()
     print(sol.intToRoman(num))
-    input()
+    input("")
 
 
