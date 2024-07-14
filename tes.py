@@ -2,7 +2,7 @@ import sys
 import os
 os.system('cls')
 
-from leet import Solution
+from intToRoman import Solution
 
 num=4563
 # Accessing 'tes' from 'leet' module
