@@ -2,9 +2,8 @@ import sys
 import os
 os.system('cls')
 
-from intToRoman import Solution
+from codes.maxArea import Solution
 
-num=4563
-# Accessing 'tes' from 'leet' module
+height=[1,8,2,5,6,5,7,2,6]
 sol=Solution()
-print(sol.intToRoman(num))
+print(sol.maxArea(height))
