@@ -1,0 +1,6 @@
+while True:
+    try:
+        input()
+        
+    except KeyboardInterrupt as e:
+        print("error")
